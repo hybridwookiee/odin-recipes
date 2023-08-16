@@ -8,6 +8,7 @@
 
 html, body {
     height: 100%;
+    background: #353238;
 }
 
 html {
@@ -15,10 +16,14 @@ html {
     margin: auto;
 }
 
+a, a:visited, a:hover, a:active {
+    color: inherit;
+  }
+
 body {
     display: table-cell;
     vertical-align: middle;
-    color: black;
+    color: white;
 }
 
 h1 {
