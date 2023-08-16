@@ -1,0 +1,49 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+    line-height: 150%;
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    color: black;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+h2 {
+    font-size: 2rem;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 1rem;
+}
+
+.block {
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+}
+
+.content {
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+}
