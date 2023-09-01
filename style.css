@@ -27,11 +27,6 @@ body {
     color: white;
 }
 
-b {
-    color: red;
-    font-size: 1.25em;
-}
-
 .header {
     margin-top: 0;
     height: 234px;
@@ -62,8 +57,9 @@ b {
     margin: 0;
 }
 
-b {
+span {
     margin: 10px;
+    font-size: 7vh;
 }
 
 ul {
@@ -84,11 +80,16 @@ ul {
     display: flex;
     flex: 1;
     margin-bottom: 0;
-    justify-content: center;
     align-items: center;
     background-color: rgba( 180, 180, 180, .5);
     height: 70px;
     border-radius: 10px;
+    position: relative;
+    justify-content: center;
+}
+
+a {
+    width: 100%;
 }
 
 .macandcheese {
@@ -97,6 +98,7 @@ ul {
     background-size: cover;
     color: black;
     font-size: 1em;
+    display: flex;
 }
 
 .ShakeoftheGODS {
@@ -105,6 +107,7 @@ ul {
     background-size: cover;
     color: black;
     font-size: 1em;
+    display: flex;
 }
 
 .salsa {
@@ -113,11 +116,25 @@ ul {
     background-size: cover;
     color: black;
     font-size: 1em;
+    display: flex;
 }
 
 li {
     margin: 0;
     flex: 1;
+}
+
+.recipe-of-the-week {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 5em;
+    text-decoration: none;
+    background-color: rgb(105, 105, 105);
+    color: black;
 }
 
 .footer {
