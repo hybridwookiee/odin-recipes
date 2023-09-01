@@ -4,10 +4,11 @@
 }
 
 html, body {
-    height: 100%;
-    width: 100%;
+    min-height: 100vh;
     background: #353238;
     padding: 0;
+    justify-content: center;
+    width: 100%;
 }
 
 html {
@@ -155,10 +156,10 @@ li {
     margin: 0;
   }
 
-.footer {
-    justify-content: center;
-    align-items: center;
+footer {
     position: absolute;
+    display: flex;
+    align-items: center;
     width: 100%;
     bottom: 0;
     color: white;
